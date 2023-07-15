@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    margin: 0;
+    padding: auto;
+}
+
+.toggle-dark {
+    /* color: #000 !important; */
+}
+
+div.navbar-hide {
+    background-color: #4682b4;
+    width: 100% !important;
+}
+.navbar {
+    background-color: #7fffd4;
+}
+
+.offcanvas-body {
+    font-size: 32px !important;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+#simple-list-example {
+    width: 40px !important;
+    
+}
+
+.r-2 {
+    margin: 22px auto;
+    border-radius: 20px;
+    padding: 5px;
+   
+}
+
+
+
+h5.text-dark {
+    background-color: #87ceeb;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+#navbar-brands {
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.nav1 {
+    font-family: 'Courgette', cursive;
+}
+
+.p-1 {
+    background-color: #7fffd4;
+    color: #000;
+}
+
+.hr {
+    width: 100%;
+    height: 1px ;
+    background-color: #000;
+}
+
+.stack {
+    padding-top: 80px !important;
+}
+
+.icon {
+    font-size: x-large !important;
+}
+.icon2 {
+    padding: 5px;
+    word-spacing: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+
+#caps {
+    position: absolute !important;
+    top: 20px !important;
+}
+
+
+@media screen and (min-width:1024px) {
+    .w-100 {
+        width: 100vh !important;
+    }
+    
+
+    .footer{
+        height: 250px;
+    }
+
+    .txt5 {
+        padding: 50px; 
+        font-size: xx-large;
+        text-transform: capitalize;
+        color: #4682b4 !important;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .icon2 {
+        word-spacing: 100px;
+    }
+
+    .txt {
+        position: absolute;
+        top: 200px;
+        right: 70px;
+        width: 500px;
+    }
+
+    .txt2 {
+        position: relative;
+        bottom: 220px !important;
+        width: 600px !important;
+        left: 100px;
+    }
+
+    .img2 {
+        width: 400px !important;
+        height: 250px;
+    }
+
+    .ms-auto {
+        position: relative;
+        bottom: 40px;
+        margin: 0 auto;
+        width: 550px;
+        text-align: center;
+        font-size: larger;
+        font-style: italic;
+    }
+
+}
+
+
+
+@media screen and (min-width: 268px) {
+    .w-75 {
+        width: 150px !important;
+    }
+
+    .cap2 {
+        position: absolute;
+        bottom: 60px;
+    }
+
+    .h-78 {
+        height: 200px;
+    }
+
+    .txt5 {
+        padding: 50px; 
+        font-size: xx-large;
+        text-transform: capitalize;
+        color: #4682b4 !important;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .txt6 {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
